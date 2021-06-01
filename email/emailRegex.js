@@ -1,5 +1,5 @@
 let email = 'abc';
-let emailRegex = RegExp('^[a-zA-Z]+$');
+let emailRegex = RegExp('^[a-zA-Z]+@[a-zA-Z]+');
 
 if(emailRegex.test(email))
 	console.log("Valid Email");
